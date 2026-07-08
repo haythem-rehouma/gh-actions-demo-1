@@ -9,6 +9,7 @@ from __future__ import annotations
 VALID_PRIORITIES = ("low", "medium", "high")
 
 
+
 class ValidationError(ValueError):
     """Erreur levée lorsqu'une tâche est invalide."""
 
